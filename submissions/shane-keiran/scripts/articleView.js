@@ -107,7 +107,7 @@
   articleView.initAdminPage = function() {
     // DONE: Call the Handlebars `.compile()` method to fill in our admin stats section.
     var template = Handlebars.compile($('#author-template').html());
-
+    
     // DONE: We use `forEach` here because we are relying on the side-effects of the callback function:
     // appending to the DOM.
     // The callback is not required to return anything.
